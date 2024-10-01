@@ -8,4 +8,4 @@ COPY target/course-0.0.1-SNAPSHOT.jar $APP_HOME/app.jar
 
 WORKDIR $APP_HOME
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT exec java -jar app.jar
