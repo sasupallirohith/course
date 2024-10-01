@@ -81,7 +81,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.klef.jfsd.springboot.YourMainClass</mainClass> <!-- Specify your main class -->
+                    <mainClass>com.klef.jfsd.springboot.ContinuousCouriers</mainClass> <!-- Updated to your main class -->
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
