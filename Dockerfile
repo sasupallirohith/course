@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8-jdk-tomcat
 ENV APP_HOME /usr/src/app
 WORKDIR $APP_HOME
 
